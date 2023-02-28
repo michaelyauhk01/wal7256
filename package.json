@@ -12,6 +12,8 @@
     "prepare": "husky install"
   },
   "husky": {
-    "pre-push": "clasp push"
+    "hooks": {
+      "pre-push": "clasp push"
+    }
   }
 }
