@@ -1,0 +1,17 @@
+{
+  "name": "wal7256",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "michaelyauhk01 <michaelyau@hk01.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "clasp": "^1.0.0",
+    "husky": "^8.0.0"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "husky": {
+    "pre-push": "clasp push"
+  }
+}
